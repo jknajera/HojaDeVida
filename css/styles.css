@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*CSS Document*/
+
+html{
+	background: url(/img/bg.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(27, 55, 97);
+    text-align: center;
+}
+
+body {
+	background-color: white;
+}
+
+footer {   
+    text-align: center;
+    background-color: rgb(27, 55, 97);
+}
+
+#sButton {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgba(99, 99, 99, 0.3);
+  border: 1px solid rgba(79, 74, 74, 0.5);
+  color: #3d3d3d;;
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Lobster', cursive;
+}
+
+#sButton span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#sButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#sButton:hover span {
+  padding-right: 5px;
+}
+
+#sButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#sButton:hover{
+	border-bottom: 1px solid rgba(79, 74, 74, 0.5);
+	box-shadow: 0px 0px 5px 5px rgba(79, 74, 74, 0.5);
+	background-color: rgba(99, 99, 99, 0.5);
+}
+
+#cabeza{
+    background-color: rgba(99, 99, 99, 0.3);
+    max-width: 1000px;
+    min-width: 1000px;
+	min-height: 80px;
+    max-height: 80px;
+    margin-top: 10px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h1 {
+	font-family: 'Pacifico';
+	color: beige;
+	size: 20px;
+    text-align: center;
+}
+
+h2 {
+	font-family: 'Pacifico';
+	color: beige;
+	font-size: 18px;
+    text-align: center;
+}
+
+h3{
+    color: black;
+	font-size: 16px;
+    text-align: center;
+}
+
+h4 {
+    color: #A9D0F5;
+	font-size: 16px;
+    text-align: center;
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
+
+table {
+	border: 3px solid black;
+	width: 10%;
+    background: #FFFFFF;
+    max-width: 1000px;
+    min-width: 1000px;
+	min-height: 450px;
+    max-height: 450px;
+    margin-top: 10px;
+}
+
+textarea{
+    background-color: cornsilk;
+    font-size: 14px;
+	width : 95%;
+	height : 150px;
+	resize : none;
+	box-sizing : border-box;
+}
+
+td {
+	border-top-style : none;
+	border-left-style : none;
+	border-right-style : none;
+	border-bottom-style : none;
+    border : none;
+    font-family: 'Pacifico';
+    text-align: center;
+    color: black;
+}
